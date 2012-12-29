@@ -1,8 +1,9 @@
-##PHP & MySQL URL Shortener
+#PHP & MySQL URL Shortener
 
 This is a simple and easy to set up URL shortener for your site. All you need to do is set up some values in the includes.php file and create your MySQL Database which should be created using the code in the below section.
 
-### MySQL Table Code
+## MySQL Table Code
+All you need to do is paste this into PHPMyAdmin, or create a table using the sql command line following the below schema.
 
     CREATE TABLE IF NOT EXISTS `urls` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
